@@ -2,10 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0,0,0,0.8);
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -46,14 +47,51 @@ main {
 }
 
 .grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-    justify-content: center;
+    justify-items: center;
+    align-items: start;
 }
 
 .grid article {
-    border: 1px solid #ccc;
-    padding: 1em;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 0.3em;
     text-align: center;
     max-width: 200px;
+}
+
+.grid img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid article:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.background-fixed{
+    background-image: url(Fotos/tyson-moultrie-BQTHOGNHo08-unsplash.jpg) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-black{
+    background-color: rgba(0,0,0,0.7); 
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+article{
+    cursor: pointer;
+}
+
+article a{
+    display: block;
 }
