@@ -16,33 +16,51 @@
             <nav>
                 <ul>
                     <li><a href="Homepage.html">Home</a></li>
-                    <li><a href="films.html">Films</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="films.html">Alle Films</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
         </header>
-    
+        <hr class="lijn">
         <main>
             <section class="film-detail">
-                <h1>Filmnaam</h1>
-                <p><strong>Genre:</strong> Actie</p>
-                <p><strong>Regisseur:</strong> Jane Doe</p>
-                <p><strong>Plot:</strong> Een spannende film over heldhaftigheid en avontuur.</p>
+                <img src="Fotos/Juan Wick.jpg" alt="Juan Wick">
+                <div>
+                    <h1>Juan Wick</h1>
+                    <p><strong>Genre:</strong> Actie</p>
+                    <p><strong>Regisseur:</strong> Maximilien Devereux</p>
+                    <p><strong>Plot:</strong> Juan Wick, een legendarische huurmoordenaar, is met pensioen gegaan van zijn gewelddadige carrière nadat hij trouwde met de liefde van zijn leven. De plotselinge dood van zijn vrouw werpt hem in een diepe rouw. Wanneer de sadistische crimineel Sebastián Herrera en zijn handlangers de auto van Juan stelen en de puppy doden die het laatste cadeau van zijn vrouw was, ontwaakt de meedogenloze moordmachine die hij altijd al was en zoekt hij wraak. Ondertussen zet de vader van Sebastián, Enrique Herrera, een grote beloning op zijn hoofd.</p>
+                </div>  
             </section>
-            <section class="gerelateerde-films">
-                <h2>Gerelateerde Films</h2>
-                <div class="grid">
-                    <article>
-                        <img src="images/film3.jpg" alt="Film 3">
-                        <h3>Film 3</h3>
-                    </article>
-                    <article>
-                        <img src="images/film4.jpg" alt="Film 4">
-                        <h3>Film 4</h3>
-                    </article>
+            <hr>
+            <section class="reviews">
+                <h2 class="tekst-midden">Reviews</h2>
+                <div class="review">
+                    <p><strong>John Jon</strong></p>
+                    <p>"Een geweldige film met spannende actie en een krachtige emotionele boodschap!"</p>
                 </div>
-            </section>
-        </main>    
+                <div class="review">
+                    <p><strong>Jane Smith</strong></p>
+                    <p>"Ik vond de film geweldig, maar de plotwending was een beetje voorspelbaar."</p>
+                </div>
+                <h3>Laat je beoordeling achter</h3>
+                <form action="#" method="post">
+                    <label for="username">Naam:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="rating">Beoordeling (1-5):</label>
+                    <input type="number" id="rating" min="1" max="5"required>
+
+                    <label for="review">Recensie:</label>
+                    <textarea id="review" rows="4" required></textarea>
+                    <button type="submit">Verstuur Review</button>
+
+                </form>
+                
+
+            </section>           
+        </main>   
+        <hr class="lijn"> 
 
     </div>
     
