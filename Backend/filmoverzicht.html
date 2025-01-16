@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmbeheer - Overzicht</title>
+    <link rel="stylesheet" href="style-backend.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="background-fixed">
+    <div class="background-black">
+        <header>
+            <div class="site-name">
+                <h1>PoorFlix-Filmoverzicht</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../Frontend/Homepage.html">Ga naar de Site</a></li> <!-- Link naar de homepage -->
+                    <li><a href="filmoverzicht.html">Film Overzicht</a></li> <!-- Link naar filmoverzicht -->
+                    <li><a href="filmbeheer.html">Film Toevoegen</a></li> <!-- Link naar film toevoegen -->
+                    <li><a href="loginpagina.html">Login</a></li> <!-- Link naar loginpagina -->
+                </ul>
+
+                </ul>
+            </nav>
+        </header>
+        <hr class="lijn">
+
+        <main class="admin-content">
+            <section class="search-section">
+                <h2>Zoek een film</h2>
+                <input type="text" placeholder="Filmnaam of genre..." class="search-bar"> <!-- Zoekveld voor filmnaam of genre -->
+            </section>
+
+            <section class="film-table-section">
+                <h2>Overzicht van films</h2> <!-- Overzicht van films -->
+                <table class="film-table">
+                    <thead>
+                        <tr>
+                            <th>Titel</th> <!-- Kolom voor titel -->
+                            <th>Genre</th> <!-- Kolom voor genre -->
+                            <th>Jaar</th> <!-- Kolom voor jaar -->
+                            <th>Bewerken</th> <!-- Kolom voor bewerken -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            td>Juan Wick</td> <!-- Filmtitel -->
+                            <td>Actie</td> <!-- Filmgenre -->
+                            <td>2020</td> <!-- Jaar van de film -->
+                            <td><button><a href="filmbeheer.html">Bewerken</a></button> <button>Verwijderen</button></td>
+                        </tr>
+                        <tr>
+                            <td>The Black Puma</td>
+                            <td>Animatie</td>
+                            <td>2020</td>
+                            <td><button><a href="filmbeheer.html">Bewerken</a></button> <button>Verwijderen</button></td>
+                        </tr>
+                        <tr>
+                            <td>The Invocation</td>
+                            <td>Horror</td>
+                            <td>2020</td>
+                            <td><button><a href="filmbeheer.html">Bewerken</a></button> <button>Verwijderen</button></td>
+                        </tr>
+                        <tr>
+                            <td>Metal Man</td>
+                            <td>Actie</td>
+                            <td>2020</td>
+                            <td><button><a href="filmbeheer.html">Bewerken</a></button> <button>Verwijderen</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <hr class="lijn">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PoorFlix. Alle rechten voorbehouden.</p> 
+    </footer>
+</body>
+</html>

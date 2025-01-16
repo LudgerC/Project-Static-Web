@@ -1,10 +1,11 @@
+/* Algemene stijlen voor de pagina */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     color: white;
 }
-
+/* Header sectie */
 header {
     background-color: rgba(0,0,0,0.8);
     color: white;
@@ -21,7 +22,7 @@ header h1 {
     font-size: 2em;
     font-weight: 700;
 }
-
+/* Navigatie links */
 nav ul {
     list-style: none;
     padding: 0;
@@ -135,7 +136,7 @@ article{
 article a{
     display: block;
 }
-
+/* Film detail sectie */
 .film-detail{
     display: flex;
     align-items: center;
@@ -151,7 +152,7 @@ article a{
     display: flex;
     flex-direction: column;
 }
-
+/* Responsive voor kleinere schermen */
 @media (max-width: 768px) {
     .film-detail {
         flex-direction: column; 
@@ -194,7 +195,7 @@ article a{
     transform:translate(-10px);
     background-color: rgba(0,0,0,0.7);
 }
-
+/* Reviews sectie */
 .reviews {
     margin-top: 10px;
     padding: 10px;
@@ -204,7 +205,7 @@ article a{
     width: 70%; 
    
 }
-
+/* Review item stijl */
 .review {
     background-color: #ffffff60;
     border-radius: 5px;
@@ -230,7 +231,7 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 10px;
 }
-
+/* Formulier button */
 form button {
     background-color: #0cc012;
     color: white;
@@ -247,7 +248,7 @@ form button:hover {
     background-color: #45a049;
 }
 
-
+/* Zoekveld */
 .search-container {
     display: flex;
     justify-content: center;
@@ -270,6 +271,7 @@ form button:hover {
 .search-container input[type="text"]:focus {
     border-color: blueviolet; 
 }
+/* Contact sectie */
 
 .contact-section {  
     color: white;

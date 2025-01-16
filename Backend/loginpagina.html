@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="style-backend.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="background-fixed">
+    <div class="background-black">
+        <header>
+            <div class="site-name">
+                <h1>PoorFlix Admin</h1> <!-- Site titel voor het beheerderspaneel -->
+            </div>
+        </header>
+        <hr class="lijn">
+        <main class="admin-login">
+            <div class="login-container">
+                <h2>Admin Login</h2> <!-- Login sectie voor de admin -->
+                <form action="filmoverzicht.html" method="get"> <!-- Formulier voor inloggen -->
+                    <label for="username">Admin:</label> <!-- Label voor gebruikersnaam -->
+                    <input type="text" id="username" name="username" placeholder="Admin" required> <!-- Veld voor gebruikersnaam -->
+                    <label for="password">Wachtwoord: </label>
+                    <input type="password" id="password" name="password" placeholder="Wachtwoord" required> <!-- Veld voor wachtwoord -->
+                    <button type="submit">Inloggen</button> <!-- Inlogknop -->
+                </form>
+            </div>
+        </main>
+    </div>
+    <hr class="lijn">
+    <footer> 
+        <p>&copy; 2025 Admin Paneel. Alle rechten voorbehouden.</p> <!-- Footer met copyright -->
+    </footer>
+</body>
+</html>

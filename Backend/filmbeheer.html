@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmbeheer - Film Bewerken</title>
+    <link rel="stylesheet" href="style-backend.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="background-fixed">
+    <div class="background-black">
+        <header>
+            <div class="site-name">
+                <h1>PoorFlix-Film Beheer</h1> <!-- Header voor filmbeheer -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="filmoverzicht.html">Film Overzicht</a></li>
+                    <li><a href="filmbeheer.html">Film Toevoegen</a></li>
+                    <li><a href="loginpagina.html">Login</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <hr class="lijn">
+        <main class="admin-content">
+            <section class="form-section">
+                <h2>Wijzig de gegevens van de film</h2> <!-- Sectie voor het bewerken van filmgegevens -->
+                <form class="film-form">
+                    <label for="title">Titel</label>
+                    <input type="text" id="title" name="title"  placeholder="Titel van de film" required>
+
+                    <label for="genre">Genre</label>
+                    <input type="text" id="genre" name="genre" placeholder="Genre van de film" required>
+
+                    <label for="year">Jaar</label>
+                    <input type="number" id="year" name="year" value="2025" placeholder="Jaar van release" required>
+
+                    <button type="submit">Opslaan</button> <!-- Opslaan knop -->
+                </form>
+            </section>
+        </main>
+    </div>
+    <hr class="lijn">
+
+    <footer>
+        <p>&copy; 2025 PoorFlix. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
