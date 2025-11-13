@@ -27,24 +27,25 @@ Everything was built from scratch — no frameworks, just pure front-end code.
 ---
 
 ## 📂 Structure
+```
 PoorFlix/
 ├── Frontend/
-│   ├── Homepage.html
-│   ├── film-details.html
-│   ├── films.html
-│   ├── contact.html
-│   ├── style.css
+│ ├── Homepage.html
+│ ├── film-details.html
+│ ├── films.html
+│ ├── contact.html
+│ ├── style.css
 │
 ├── Backend/
-│   ├── filmbeheer.html
-│   ├── filmoverzicht.html
-│   ├── loginpagina.html
-│   ├── style-backend.css
+│ ├── filmbeheer.html
+│ ├── filmoverzicht.html
+│ ├── loginpagina.html
+│ ├── style-backend.css
 │
 ├── Fotos/
 ├── Videos/
 └── README.md
-
+```
 
 ---
 
